@@ -24,5 +24,4 @@ public class PlayerTest {
         System.out.println(player1.getEquipments());
         System.out.println(player1.getAccumulatedScore());
     }
-
 }
