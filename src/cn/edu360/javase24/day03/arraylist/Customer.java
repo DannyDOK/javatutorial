@@ -1,4 +1,4 @@
-package arraylist;
+package cn.edu360.javase24.day03.arraylist;
 
 public class Customer {
     String userId;

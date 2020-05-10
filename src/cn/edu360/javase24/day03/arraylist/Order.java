@@ -1,6 +1,5 @@
-package arraylist;
+package cn.edu360.javase24.day03.arraylist;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Order {

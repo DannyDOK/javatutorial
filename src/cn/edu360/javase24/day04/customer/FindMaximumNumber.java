@@ -1,4 +1,4 @@
-package test;
+package cn.edu360.javase24.day04.customer;
 
 import java.lang.reflect.Array;
 import java.util.*;

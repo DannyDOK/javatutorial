@@ -1,4 +1,4 @@
-package test;
+package cn.edu360.javase24.day04.customer;
 import java.util.*;
 import java.util.ArrayList;
 

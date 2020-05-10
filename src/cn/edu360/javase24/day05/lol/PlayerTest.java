@@ -11,9 +11,18 @@ public class PlayerTest {
         player1.setMission("Mission1");
 
         player1.addEquipments("Sword");
+
+        System.out.println(player1.getMissionScore());
+        System.out.println(player1.getEquipments());
+        System.out.println(player1.getAccumulatedScore());
+
+        player1.addKills();
+        player1.addKilledSoldier();
         player1.addEquipments("Shield");
 
         System.out.println(player1.getMissionScore());
+        System.out.println(player1.getEquipments());
+        System.out.println(player1.getAccumulatedScore());
     }
 
 }
