@@ -15,10 +15,25 @@ public class ProductManagement {
         this.pdts.add(p);
     }
 
+    public ArrayList<Product> getPdts() {
+        return pdts;
+    }
+
     public void showProducts() {
         for (int i=0; i<pdts.size(); i++) {
             System.out.println(pdts.get(i));
         }
+    }
+
+    public Product getProductById(String id) {
+
+        for (int i=0; i<pdts.size();i++) {
+            Product p = pdts.get(i);
+            if (pdts.get(i).getProductId().equals(id)) {
+                return p;
+            }
+        }
+        return null;
     }
 
 }
